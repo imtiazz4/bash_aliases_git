@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Allow directories so Git can traverse
+!*/
+
+# Allow wp-content
+!/wp-content/
+
+# Allow plugins and themes folders
+!/wp-content/plugins/
+!/wp-content/themes/
+
+# Allow specific plugins
+!/wp-content/plugins/shop3/
+!/wp-content/plugins/shop3/**
+
+!/wp-content/plugins/ssactive_import/
+!/wp-content/plugins/ssactive_import/**
+
+# Allow specific theme
+!/wp-content/themes/bricks-child/
+!/wp-content/themes/bricks-child/**
